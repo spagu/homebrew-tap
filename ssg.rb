@@ -11,30 +11,27 @@ class Ssg < Formula
   on_macos do
     on_arm do
       url "https://github.com/spagu/ssg/releases/download/v1.7.10/ssg-1.7.10-darwin-arm64.tar.gz"
-      sha256 "9170c946c51604ad81b4337ce953a6e9e7f5a811fae8874a4e9af618e3a454ea"
+      sha256 "45e7adf1e7731e8ff2b68a69a298fa6668a504c944afc9237b036a09ac1bded8"
     end
     on_intel do
       url "https://github.com/spagu/ssg/releases/download/v1.7.10/ssg-1.7.10-darwin-amd64.tar.gz"
-      sha256 "9d1ff627b0d827c6b5569dcb6861972bd7ab94b6471354287037e61f78792e02"
+      sha256 "e466978e07521e6bbb7fdda8b6348d1440c1ecd5537ea8f3d465453a2080b028"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/spagu/ssg/releases/download/v1.7.10/ssg-1.7.10-linux-arm64.tar.gz"
-      sha256 "f7e8475d75bd08a19618da98be37129d063569949a965f7e1013b543e27fcf8e"
+      sha256 "3edba0f34c34050fbb1aec8302f1759ee60c72c8e1353efcb4668224969048a5"
     end
     on_intel do
       url "https://github.com/spagu/ssg/releases/download/v1.7.10/ssg-1.7.10-linux-amd64.tar.gz"
-      sha256 "b94550e9616c425ccebd9f91c9e2e539c5274ca9e78f18281ded5eab111ec487"
+      sha256 "a92c4b9a21aa3d2ea11f37f2942462a5f5268b3fee27b2f55ee17693a9087a6e"
     end
   end
 
   def install
-    bin.install "ssg-darwin-arm64" => "ssg" if OS.mac? && Hardware::CPU.arm?
-    bin.install "ssg-darwin-amd64" => "ssg" if OS.mac? && Hardware::CPU.intel?
-    bin.install "ssg-linux-arm64" => "ssg" if OS.linux? && Hardware::CPU.arm?
-    bin.install "ssg-linux-amd64" => "ssg" if OS.linux? && Hardware::CPU.intel?
+    bin.install "ssg"
   end
 
   test do
