@@ -11,22 +11,22 @@ class Ssg < Formula
   on_macos do
     on_arm do
       url "https://github.com/spagu/ssg/releases/download/v1.7.10/ssg-1.7.10-darwin-arm64.tar.gz"
-      sha256 "512a0d6d898cf8f568402fab620b6cd230b5bd23d9c82cacc8cf00db9738f7ec"
+      sha256 "9170c946c51604ad81b4337ce953a6e9e7f5a811fae8874a4e9af618e3a454ea"
     end
     on_intel do
       url "https://github.com/spagu/ssg/releases/download/v1.7.10/ssg-1.7.10-darwin-amd64.tar.gz"
-      sha256 "e7180411d7172502aedb901dafd5a1fbb4f48f9f4be62698af00a6d8507f848a"
+      sha256 "9d1ff627b0d827c6b5569dcb6861972bd7ab94b6471354287037e61f78792e02"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/spagu/ssg/releases/download/v1.7.10/ssg-1.7.10-linux-arm64.tar.gz"
-      sha256 "3e88a9d3ab9cc05e0f7e3dab4a56da4105f52a341cfab280113dd6f8f54b23c5"
+      sha256 "f7e8475d75bd08a19618da98be37129d063569949a965f7e1013b543e27fcf8e"
     end
     on_intel do
       url "https://github.com/spagu/ssg/releases/download/v1.7.10/ssg-1.7.10-linux-amd64.tar.gz"
-      sha256 "0925b03ec204513359a505055751c70187ad4b1ad0bc38f3ad858868af1181b9"
+      sha256 "b94550e9616c425ccebd9f91c9e2e539c5274ca9e78f18281ded5eab111ec487"
     end
   end
 
