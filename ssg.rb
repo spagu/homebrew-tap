@@ -7,28 +7,28 @@
 class Ssg < Formula
   desc "Fast static site generator written in Go"
   homepage "https://github.com/spagu/ssg"
-  version "1.8.23"
+  version "1.8.24"
   license "BSD-3-Clause"
 
   on_macos do
     on_arm do
-      url "https://github.com/spagu/ssg/releases/download/v1.8.23/ssg-darwin-arm64.tar.gz"
-      sha256 "049f162ea9eca1a7d20be9ac918ae50e160540f77587b5268c9ec3cbda6634f9"
+      url "https://github.com/spagu/ssg/releases/download/v1.8.24/ssg-darwin-arm64.tar.gz"
+      sha256 "7962978b25ed1d047e577801a261b040455a0f388df6f6a034c102b88bdd4cf7"
     end
     on_intel do
-      url "https://github.com/spagu/ssg/releases/download/v1.8.23/ssg-darwin-amd64.tar.gz"
-      sha256 "f7afc8036b5851c853fffe78811251dd463a13b5a450d2720a7d8d1257fdee86"
+      url "https://github.com/spagu/ssg/releases/download/v1.8.24/ssg-darwin-amd64.tar.gz"
+      sha256 "3c7f34aeb1c2f4bbdcf42805675d47691f9ce286d81e8540b3c248c4bb14d339"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/spagu/ssg/releases/download/v1.8.23/ssg-linux-arm64.tar.gz"
-      sha256 "3772325a74375d5fd745929905ff50bd49b7a0d61501ca9ac1b1657c749bd0d9"
+      url "https://github.com/spagu/ssg/releases/download/v1.8.24/ssg-linux-arm64.tar.gz"
+      sha256 "ce103a48e1eff2b9925b1f311b5726fbb82418894ac7087805acb78b918ae4d7"
     end
     on_intel do
-      url "https://github.com/spagu/ssg/releases/download/v1.8.23/ssg-linux-amd64.tar.gz"
-      sha256 "169f7573943fe44a26e3fefa2907d9783792fcc076711415b099bc500e98c2ae"
+      url "https://github.com/spagu/ssg/releases/download/v1.8.24/ssg-linux-amd64.tar.gz"
+      sha256 "93163abd77c903417398080e377d7f3ba4d10ef5e71b14fdaf873179d2c3f50b"
     end
   end
 
